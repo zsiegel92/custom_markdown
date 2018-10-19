@@ -1,0 +1,11 @@
+{
+    "target": "markdown_build",
+    "selector": "text.html.markdown",
+    "variants": [
+    	{
+    		"name": "Open in Browser",
+    		"target": "exec",
+    		"shell_cmd": "source ~/.bashrc; chromelocal $file_path/$file_base_name.html"
+    	}
+    ]
+}
